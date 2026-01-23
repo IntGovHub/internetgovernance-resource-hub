@@ -8,37 +8,72 @@ Use this list to explore opportunities to grow your knowledge, network, and impa
 
 ## 📆 2025 Opportunities
 
-> Listed in order of deadline — soonest first. Deadlines marked with estimated countdowns.
+# 🌐 Global Digital Policy & Governance Conferences 2026
+
+A curated list of conferences covering Internet Governance, Tech Policy, Cybersecurity, and Digital Rights.
 
 ---
 
-### 🗓 September 2025
-
-| Program Name | Type | Region | Funding | Deadline | Countdown |
-|--------------|------|--------|---------|----------|-----------|
-| [APNIC Internet Leaders](https://academy.apnic.net/) | Training/Fellowship | Asia-Pacific | Yes | Sept 10, 2025 | ⌛ ~29 days left |
-
----
-
-### 🗓 October 2025
-
-| Program Name | Type | Region | Funding | Deadline | Countdown |
-|--------------|------|--------|---------|----------|-----------|
-| [DiploFoundation Fall Courses](https://www.diplomacy.edu/) | Training/Fellowship | Global | Partial/Full | Oct 1, 2025 _(est.)_ | ~50 days left |
+## 📑 Table of Contents
+* [January](#-january-2026)
+* [February](#-february-2026)
+* [March](#-march-2026)
+* [April](#-april-2026)
+* [May](#-may-2026)
+* [June](#-june-2026)
+* [October](#-october-2026)
 
 ---
 
-### 📅 TBD / Rolling Opportunities
+### 🗓 January 2026
+- 
+---
 
-These programs are open periodically or accept rolling applications.
+### 🗓 February 2026
+- 
 
-| Program Name | Type | Region | Funding | Typical Deadline |
-|--------------|------|--------|---------|------------------|
-| [ICANN Fellowship](https://www.icann.org/fellowshipprogram) | Fellowship | Global | Yes | Varies by cycle |
-| [ISOC Youth Ambassador Program](https://www.internetsociety.org/policy-programs/youth/) | Fellowship | Global | Yes | Usually Q1 each year |
-| [Digital Grassroots Ambassadors](https://digitalgrassroots.org/) | Mentorship | Global | No | Rolling |
-| [UN IGF Youth Track](https://www.intgovforum.org/) | Fellowship/Event Track | Global | Sometimes | Varies |
+- 
+---
 
+### 🗓 March 2026
+- 
+
+-
+---
+
+### 🗓 April 2026
+
+- **[ARIN 57 Public Meeting](https://arin.swoogo.com/arin57?i=05nkimj-5O6pwCTLfL78JoLwEboWrUn8)** 🌍 **Region:** North America (Louisville, Kentucky & Online)
+📅 **Date:** April 19–22, 2026 
+💰 **Funding:** Yes (Fellowship Program - Travel & Virtual) 
+🗓 **Application Deadline:** January 26, 2026 (Applications currently open!).
+
+- 
+
+---
+
+### 🗓 May 2026
+- 
+
+- 
+
+- 
+
+---
+
+### 🗓 June 2026
+
+
+- **[ICANN86 Policy Forum](https://www.icann.org/en/announcements/details/call-for-applications-nextgenicann86-01-12-2025-en)** 🌍 **Region:** Europe (Seville, Spain)  
+📅 **Date:** June 8–11, 2026  
+💰 **Funding:** Yes (NextGen@ICANN & Fellowship)  
+🗓 **Application Deadline:** NextGen applications open Dec 1, 2025 – Jan 9, 2026.
+
+---
+
+### 🗓 October 2026
+
+---
 ---
 
 ## ✅ How to Contribute
