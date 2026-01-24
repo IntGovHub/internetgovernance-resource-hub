@@ -4,6 +4,26 @@ Explore funding sources and grant programs that support Internet Governance init
 
 ---
 
+## 📑 Table of Contents
+* [January](#-january-2026)
+* [February](#-february-2026)
+* [March](#-march-2026)
+* [April](#-april-2026)
+* [May](#-may-2026)
+* [June](#-june-2026)
+* [October](#-october-2026)
+
+---
+
+### 🗓 January 2026
+- **[Program Name](https://igf.tt/)** 🌍 **Eligible Regions:** Caribbean (Hybrid/Port of Spain)   
+✅ **Type:
+💰**Funding Amount:** Limited (Local support usually available)  
+🗓 **Application Deadline:** .
+
+---
+
+
 | Program Name | Link | Type | Eligible Regions | Funding Amount | Application Deadline |
 |--------------|------|------|------------------|----------------|-----------------------|
 | [Internet Society Foundation - Research Grant](https://www.isocfoundation.org/) | Research Grant | Global | Up to $200,000 | May 2025 |
