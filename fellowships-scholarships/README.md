@@ -24,9 +24,17 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 * [October](#-october-2026)
 
 ---
-
 ### 🗓 January 2026
-- 
+
+- **[ICANN86 Policy Forum](https://www.icann.org/en/announcements/details/call-for-applications-nextgenicann86-01-12-2025-en)** 🌍 **Region:** Europe (Seville, Spain)  
+📅 **Date:** June 8–11, 2026  
+💰 **Funding:** Yes (NextGen@ICANN & Fellowship)  
+🗓 **Application Deadline:** NextGen applications open Dec 1, 2025 – Jan 9, 2026.
+
+- **[ARIN 57 Public Meeting](https://arin.swoogo.com/arin57?i=05nkimj-5O6pwCTLfL78JoLwEboWrUn8)** 🌍 **Region:** North America (Louisville, Kentucky & Online)
+📅 **Date:** April 19–22, 2026 
+💰 **Funding:** Yes (Fellowship Program - Travel & Virtual) 
+🗓 **Application Deadline:** January 26, 2026 (Applications currently open!).
 ---
 
 ### 🗓 February 2026
@@ -52,12 +60,9 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 
 ### 🗓 April 2026
 
-- **[ARIN 57 Public Meeting](https://arin.swoogo.com/arin57?i=05nkimj-5O6pwCTLfL78JoLwEboWrUn8)** 🌍 **Region:** North America (Louisville, Kentucky & Online)
-📅 **Date:** April 19–22, 2026 
-💰 **Funding:** Yes (Fellowship Program - Travel & Virtual) 
-🗓 **Application Deadline:** January 26, 2026 (Applications currently open!).
 
-- 
+
+
 
 ---
 
@@ -73,10 +78,6 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 ### 🗓 June 2026
 
 
-- **[ICANN86 Policy Forum](https://www.icann.org/en/announcements/details/call-for-applications-nextgenicann86-01-12-2025-en)** 🌍 **Region:** Europe (Seville, Spain)  
-📅 **Date:** June 8–11, 2026  
-💰 **Funding:** Yes (NextGen@ICANN & Fellowship)  
-🗓 **Application Deadline:** NextGen applications open Dec 1, 2025 – Jan 9, 2026.
 
 ---
 
