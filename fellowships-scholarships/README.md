@@ -54,6 +54,13 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 📅 **Date:** June 1-July 18, 2026.
 💰 **Funding:** No
 🗓 **Application Deadline:** January 31, 2026 (Applications currently open!).
+
+- **[Postdoctoral Fellow in Nature-based Solutions– University of Nairobi, Kenya](https://www.afas.africa/open-postdoctoral-and-phd-opportunities-african-climate-and-environment-centre-future-african-savannas-afas/)** 🌍 **Region:** Africa(Nairobi, Kenya)
+📅 **Date:** 2 years (renewable once).
+💰 **Funding:** Yes
+🗓 **Application Deadline:** January 29, 2026 (Applications currently open!).
+
+
 ---
 
 ### 🗓 February 2026
@@ -67,6 +74,16 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 📅 **Date:** February 11-13, 2026 
 💰 **Funding:** No 
 🗓 **Application Deadline:** (Applications currently open!).
+
+- **[Postdoctoral Researcher in Nature-based Solutions – Félix Houphouët-Boigny University (UFHB](https://www.afas.africa/open-postdoctoral-and-phd-opportunities-african-climate-and-environment-centre-future-african-savannas-afas/)** 🌍 **Region:** Africa(Abidjan, Côte d’Ivoire)
+📅 **Date:** 2 years (renewable once).
+💰 **Funding:** Yes
+🗓 **Application Deadline:** February 15, 2026 (Applications currently open!).
+
+- **[Postdoctoral Researcher in Nature-based Solutions – Félix Houphouët-Boigny University (UFHB](https://www.afas.africa/open-postdoctoral-and-phd-opportunities-african-climate-and-environment-centre-future-african-savannas-afas/)** 🌍 **Region:** Africa(Abidjan, Côte d’Ivoire)
+📅 **Date:** 3 years (renewable once).
+💰 **Funding:** Yes
+🗓 **Application Deadline:** February 15, 2026 (Applications currently open!).
 
 - **[India AI Impact Summit](https://impact.indiaai.gov.in/)** 🌍 **Region:** Asia (New Delhi, India)  
 📅 **Date:** February 16-20, 2026  
