@@ -91,7 +91,11 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 ---
 
 ### 🗓 May 2026
-- 
+
+- **[Indigenous Pathfinders in AI](https://mila.quebec/en/ai4humanity/ai-governance-policy-and-inclusion/indigenous-pathfinders-in-ai)** 🌍 **Region:** North America (Mila, Montréal)
+📅 **Date:** May 28th - July 17th 2026.  
+💰 **Funding:** Yes  
+🗓 **Application Deadline:** February 13th, 2026.
 
 - 
 
@@ -100,6 +104,16 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 ---
 
 ### 🗓 June 2026
+
+
+---
+### 🗓 July 2026
+
+- **[Fellowship in AΙ Ethics](https://greece.chs.harvard.edu/research-fellowships/ai-ethics)** 🌍 **Region:** Europe (Greece)  
+📅 **Date:** July 1, 2026 - June 30, 2027  
+💰 **Funding:** Yes ($12,000)  
+🗓 **Application Deadline:** December 8, 2025 - February 6, 2026.
+
 
 
 
