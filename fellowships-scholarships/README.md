@@ -45,26 +45,22 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 💰 **Funding:** Yes  
 🗓 **Application Deadline:** 25 January 2026.
 
-- **[ARIN 57 Public Meeting](https://arin.swoogo.com/arin57?i=05nkimj-5O6pwCTLfL78JoLwEboWrUn8)**  
-  🌍 **Region:** North America (Louisville, Kentucky & Online)  
+- **[ARIN 57 Public Meeting](https://arin.swoogo.com/arin57?i=05nkimj-5O6pwCTLfL78JoLwEboWrUn8)**🌍 **Region:** North America (Louisville, Kentucky & Online)  
   📅 **Date:** April 19–22, 2026  
   💰 **Funding:** Yes (Fellowship Program - Travel & Virtual)  
   🗓 **Application Deadline:** January 26, 2026 (Applications currently open!)
 
-- **[ITS Global Policy Fellowship Program 2026](https://itsrio.org/en/comunicados/call-for-applications-its-global-policy-fellowship-program-2026/)**  
-  🌍 **Region:** South America (Rio de Janeiro, Brasília and São Paulo)  
+- **[ITS Global Policy Fellowship Program 2026](https://itsrio.org/en/comunicados/call-for-applications-its-global-policy-fellowship-program-2026/)**🌍 **Region:** South America (Rio de Janeiro, Brasília and São Paulo)  
   📅 **Date:** June 29, 2026 - July 24, 2026  
   💰 **Funding:** Partial Funding  
   🗓 **Application Deadline:** January 30, 2026 (Applications currently open!)
 
-- **[Internet and Society Fellowship 2026](https://www.hiig.de/en/call-for-applications-fellowship-2026/)**  
-  🌍 **Region:** Central Europe (Berlin, Germany)  
+- **[Internet and Society Fellowship 2026](https://www.hiig.de/en/call-for-applications-fellowship-2026/)**🌍 **Region:** Central Europe (Berlin, Germany)  
   📅 **Date:** June 1-July 18, 2026  
   💰 **Funding:** No  
   🗓 **Application Deadline:** January 31, 2026 (Applications currently open!)
 
-- **[Postdoctoral Fellow in Nature-based Solutions– University of Nairobi, Kenya](https://www.afas.africa/open-postdoctoral-and-phd-opportunities-african-climate-and-environment-centre-future-african-savannas-afas/)**  
-  🌍 **Region:** Africa (Nairobi, Kenya)  
+- **[Postdoctoral Fellow in Nature-based Solutions– University of Nairobi, Kenya](https://www.afas.africa/open-postdoctoral-and-phd-opportunities-african-climate-and-environment-centre-future-african-savannas-afas/)**🌍 **Region:** Africa (Nairobi, Kenya)  
   📅 **Date:** 2 years (renewable once)  
   💰 **Funding:** Yes  
   🗓 **Application Deadline:** January 29, 2026 (Applications currently open!)
@@ -77,20 +73,20 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 💰 **Funding:** No  
 🗓 **Application Deadline:** (Applications currently closed!).
 
-- **[The International Conference on Digital Platform Governance 2026](https://www.unesco.org/en/articles/international-conference-digital-platform-governance-2026)** 🌍 **Region:** Africa (Pretoria, South Africa)
-📅 **Date:** February 11-13, 2026 
-💰 **Funding:** No 
-🗓 **Application Deadline:** (Applications currently open!).
+- **[The International Conference on Digital Platform Governance 2026](https://www.unesco.org/en/articles/international-conference-digital-platform-governance-2026)**🌍 **Region:** Africa (Pretoria, South Africa)  
+  📅 **Date:** February 11-13, 2026  
+  💰 **Funding:** No   
+  🗓 **Application Deadline:** (Applications currently open!).
 
-- **[Postdoctoral Researcher in Nature-based Solutions – Félix Houphouët-Boigny University (UFHB](https://www.afas.africa/open-postdoctoral-and-phd-opportunities-african-climate-and-environment-centre-future-african-savannas-afas/)** 🌍 **Region:** Africa(Abidjan, Côte d’Ivoire)
-📅 **Date:** 2 years (renewable once).
-💰 **Funding:** Yes
-🗓 **Application Deadline:** February 15, 2026 (Applications currently open!).
+- **[Postdoctoral Researcher in Nature-based Solutions – Félix Houphouët-Boigny University (UFHB](https://www.afas.africa/open-postdoctoral-and-phd-opportunities-african-climate-and-environment-centre-future-african-savannas-afas/)**🌍 **Region:** Africa(Abidjan, Côte d’Ivoire)    
+  📅 **Date:** 2 years (renewable once).  
+  💰 **Funding:** Yes  
+  🗓 **Application Deadline:** February 15, 2026 (Applications currently open!).
 
-- **[Postdoctoral Researcher in Nature-based Solutions – Félix Houphouët-Boigny University (UFHB](https://www.afas.africa/open-postdoctoral-and-phd-opportunities-african-climate-and-environment-centre-future-african-savannas-afas/)** 🌍 **Region:** Africa(Abidjan, Côte d’Ivoire)
-📅 **Date:** 3 years (renewable once).
-💰 **Funding:** Yes
-🗓 **Application Deadline:** February 15, 2026 (Applications currently open!).
+- **[Postdoctoral Researcher in Nature-based Solutions – Félix Houphouët-Boigny University (UFHB](https://www.afas.africa/open-postdoctoral-and-phd-opportunities-african-climate-and-environment-centre-future-african-savannas-afas/)**🌍 **Region:** Africa(Abidjan, Côte d’Ivoire)  
+  📅 **Date:** 3 years (renewable once).  
+  💰 **Funding:** Yes  
+  🗓 **Application Deadline:** February 15, 2026 (Applications currently open!).
 
 - **[India AI Impact Summit](https://impact.indiaai.gov.in/)** 🌍 **Region:** Asia (New Delhi, India)  
 📅 **Date:** February 16-20, 2026  
@@ -116,10 +112,10 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 
 ### 🗓 May 2026
 
-- **[Indigenous Pathfinders in AI](https://mila.quebec/en/ai4humanity/ai-governance-policy-and-inclusion/indigenous-pathfinders-in-ai)** 🌍 **Region:** North America (Mila, Montréal)
-📅 **Date:** May 28th - July 17th 2026.  
-💰 **Funding:** Yes  
-🗓 **Application Deadline:** February 13th, 2026.
+- **[Indigenous Pathfinders in AI](https://mila.quebec/en/ai4humanity/ai-governance-policy-and-inclusion/indigenous-pathfinders-in-ai)**🌍 **Region:** North America (Mila, Montréal)  
+  📅 **Date:** May 28th - July 17th 2026.   
+  💰 **Funding:** Yes    
+  🗓 **Application Deadline:** February 13th, 2026.
 
 - 
 
@@ -129,18 +125,18 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 
 ### 🗓 June 2026
 
-- **[ARIN 57 Public Meeting](https://arin.swoogo.com/arin57?i=05nkimj-5O6pwCTLfL78JoLwEboWrUn8)** 🌍 **Region:** North America (Louisville, Kentucky & Online)
-📅 **Date:** April 19–22, 2026 
-💰 **Funding:** Yes (Fellowship Program - Travel & Virtual) 
-🗓 **Application Deadline:** January 26, 2026 (Applications currently open!).
+- **[ARIN 57 Public Meeting](https://arin.swoogo.com/arin57?i=05nkimj-5O6pwCTLfL78JoLwEboWrUn8)** 🌍 **Region:** North America (Louisville, Kentucky & Online)  
+  📅 **Date:** April 19–22, 2026   
+  💰 **Funding:** Yes (Fellowship Program - Travel & Virtual)   
+  🗓 **Application Deadline:** January 26, 2026 (Applications currently open!).
 
 ---
 ### 🗓 July 2026
 
 - **[AI Policy Fellowship](https://www.iaps.ai/fellowship)** 🌍 **Region:** North America and Online (Washington DC, United States of America)  
-📅 **Date:** July 1st - August 21st, 2026.  
-💰 **Funding:** Yes   
-🗓 **Application Deadline:** February 2nd, 2026.
+  📅 **Date:** July 1st - August 21st, 2026.   
+  💰 **Funding:** Yes    
+  🗓 **Application Deadline:** February 2nd, 2026.
 
 
 
