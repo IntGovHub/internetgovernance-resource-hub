@@ -45,27 +45,29 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 💰 **Funding:** Yes  
 🗓 **Application Deadline:** 25 January 2026.
 
-- **[ARIN 57 Public Meeting](https://arin.swoogo.com/arin57?i=05nkimj-5O6pwCTLfL78JoLwEboWrUn8)** 🌍 **Region:** North America (Louisville, Kentucky & Online)
-📅 **Date:** April 19–22, 2026 
-💰 **Funding:** Yes (Fellowship Program - Travel & Virtual) 
-🗓 **Application Deadline:** January 26, 2026 (Applications currently open!).
+- **[ARIN 57 Public Meeting](https://arin.swoogo.com/arin57?i=05nkimj-5O6pwCTLfL78JoLwEboWrUn8)**
+  - 🌍 **Region:** North America (Louisville, Kentucky & Online)
+  - 📅 **Date:** April 19–22, 2026
+  - 💰 **Funding:** Yes (Fellowship Program - Travel & Virtual)
+  - 🗓 **Application Deadline:** January 26, 2026 (Applications currently open!)
 
-- **[ITS Global Policy Fellowship Program 2026](https://itsrio.org/en/comunicados/call-for-applications-its-global-policy-fellowship-program-2026/)** 🌍 **Region:** South America(Rio de Janeiro, Brasília and São Paulo)
-📅 **Date:** June 29, 2026 - July 24, 20266.
-💰 **Funding:** Partial Funding
-🗓 **Application Deadline:** January 30, 2026 (Applications currently open!).
+- **[ITS Global Policy Fellowship Program 2026](https://itsrio.org/en/comunicados/call-for-applications-its-global-policy-fellowship-program-2026/)**
+  - 🌍 **Region:** South America (Rio de Janeiro, Brasília and São Paulo)
+  - 📅 **Date:** June 29, 2026 - July 24, 2026
+  - 💰 **Funding:** Partial Funding
+  - 🗓 **Application Deadline:** January 30, 2026 (Applications currently open!)
 
-- **[Internet and Society Fellowship 2026](https://www.hiig.de/en/call-for-applications-fellowship-2026/)** 🌍 **Region:** Central Europe(Berlin, Germany)
-📅 **Date:** June 1-July 18, 2026.
-💰 **Funding:** No
-🗓 **Application Deadline:** January 31, 2026 (Applications currently open!).
+- **[Internet and Society Fellowship 2026](https://www.hiig.de/en/call-for-applications-fellowship-2026/)**
+  - 🌍 **Region:** Central Europe (Berlin, Germany)
+  - 📅 **Date:** June 1-July 18, 2026
+  - 💰 **Funding:** No
+  - 🗓 **Application Deadline:** January 31, 2026 (Applications currently open!)
 
-- **[Postdoctoral Fellow in Nature-based Solutions– University of Nairobi, Kenya](https://www.afas.africa/open-postdoctoral-and-phd-opportunities-african-climate-and-environment-centre-future-african-savannas-afas/)** 🌍 **Region:** Africa(Nairobi, Kenya)
-📅 **Date:** 2 years (renewable once).
-💰 **Funding:** Yes
-🗓 **Application Deadline:** January 29, 2026 (Applications currently open!).
-
-
+- **[Postdoctoral Fellow in Nature-based Solutions– University of Nairobi, Kenya](https://www.afas.africa/open-postdoctoral-and-phd-opportunities-african-climate-and-environment-centre-future-african-savannas-afas/)**
+  - 🌍 **Region:** Africa (Nairobi, Kenya)
+  - 📅 **Date:** 2 years (renewable once)
+  - 💰 **Funding:** Yes
+  - 🗓 **Application Deadline:** January 29, 2026 (Applications currently open!)
 ---
 
 ### 🗓 February 2026
