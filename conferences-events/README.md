@@ -108,6 +108,11 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 💰 **Funding:** No  
 🗓 **Application Deadline:** CFP usually closes Jan 2026.
 
+- **[The United Nations Graduate Study Program](https://www.ungeneva.org/en/engage/students-graduates/graduate-study-programme)** 🌍 **Region:** Europe (Geneva, Switzerland)  
+📅 **Date:** June 29th - July 10th, 2026  
+💰 **Funding:** No  
+🗓 **Application Deadline:** February 20th, 2026.
+
 ---
 
 ### 🗓 October 2026
