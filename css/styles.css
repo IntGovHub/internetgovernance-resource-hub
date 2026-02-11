@@ -197,6 +197,17 @@ nav a:hover {
     font-size: 16px;
 }
 
+.hero .cta-button.secondary {
+    background: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+
+.hero .cta-button.secondary:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: var(--white);
+}
+
 /* Main Container */
 .container {
     max-width: 1200px;
@@ -407,9 +418,14 @@ section h2 {
 
 /* Footer */
 footer {
-    background: var(--dark);
+    background: #1a1a2e;
     color: var(--white);
     padding: 60px 20px 30px;
+}
+
+[data-theme="dark"] footer {
+    background: #0f0f1e;
+    color: var(--white);
 }
 
 .footer-content {
@@ -425,6 +441,11 @@ footer {
     font-size: 16px;
     margin-bottom: 20px;
     font-weight: 700;
+    color: var(--white);
+}
+
+.footer-section p {
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-section a {
@@ -446,6 +467,27 @@ footer {
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
     font-size: 14px;
+}
+
+[data-theme="dark"] .footer-section h4 {
+    color: #ffffff;
+}
+
+[data-theme="dark"] .footer-section p {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+[data-theme="dark"] .footer-section a {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+[data-theme="dark"] .footer-section a:hover {
+    color: var(--accent);
+}
+
+[data-theme="dark"] .footer-bottom {
+    color: rgba(255, 255, 255, 0.8);
+    border-top-color: rgba(255, 255, 255, 0.2);
 }
 
 /* Responsive Design */
