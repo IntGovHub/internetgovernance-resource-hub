@@ -163,6 +163,11 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
   💰 **Funding:** Yes (Fellowship Program - Travel & Virtual)   
   🗓 **Application Deadline:** January 26, 2026 (Applications currently open!).
 
+- **[Creative Fellowship Program](https://creativefellowship.google/#form)** 🌍 **Region:** USA (New York, San Francisco, Los Angeles)  
+  📅 **Date:** Mid-June - Mid-December, 2026   
+  💰 **Funding:** Yes (Creative Fellowship - In-person (USA-based))   
+  🗓 **Application Deadline:** March 16, 2026 (Applications currently open!).
+
 ---
 ### 🗓 July 2026
 
