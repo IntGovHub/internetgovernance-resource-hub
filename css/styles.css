@@ -20,8 +20,8 @@
     --light: #f8f9fa;
     --gray: #6c757d;
     --white: #ffffff;
-    --bg: #ffffff;
-    --text: #1a1a2e;
+    --bg: #0F0F1E;
+    --text: #e8eaed;
     --radius: 12px;
     --max-width: 1200px;
     --fw-regular: 400;
@@ -41,7 +41,7 @@
     --light: #121212;
     --gray: #b0b0b0;
     --white: #ffffff;
-    --bg: #1e1e1e;
+    --bg: #0F0F1E;
     --text: #e8eaed;
 }
 
@@ -408,22 +408,39 @@ section h2 {
 /* Features Section */
 .features {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 56px;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    align-items: start;
     margin: 56px 0;
 }
 
+.feature-content {
+    background: rgba(255, 255, 255, 0.78);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 18px;
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(12px);
+    padding: 28px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-content:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 26px 45px rgba(0, 0, 0, 0.16);
+}
+
 .feature-content h3 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: var(--text);
+    font-size: 30px;
+    margin-bottom: 18px;
+    color: var(--primary-dark);
+    letter-spacing: 0.6px;
 }
 
 .feature-content p {
     color: var(--gray);
     margin-bottom: 20px;
-    line-height: 1.8;
+    line-height: 1.75;
+    font-size: 16px;
 }
 
 .feature-list {
@@ -431,26 +448,35 @@ section h2 {
 }
 
 .feature-list li {
-    padding: 12px 0;
+    padding: 10px 0;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     color: var(--text);
-    font-weight: 500;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    margin-bottom: 6px;
+    padding-bottom: 10px;
 }
 
-.feature-list li:before {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    margin-right: 0;
+.feature-list li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .feature-list li i {
     color: var(--secondary);
     font-size: 18px;
-    margin-right: 8px;
+    width: 22px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    background: rgba(76, 175, 80, 0.14);
+    border-radius: 50%;
+    line-height: 1;
 }
+
 
 /* Stats Section */
 .stats {
