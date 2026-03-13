@@ -11,6 +11,7 @@ Browse open jobs, internships, and volunteer opportunities in Internet Governanc
 | Digital Rights Researcher | Access Now | [Link](https://www.accessnow.org/jobs/) | Job | Global | Open until filled |
 | Internet Governance Volunteer | IGF Secretariat | [Link](https://www.intgovforum.org/) | Volunteer | Remote | Rolling |
 | Youth IGF Coordinator | Regional Youth IGF (example) | [Link](#) | Internship | Regional | March 2025 |
+| Consulting Summer Internship - Experience Design (2026) | IBM | [Link](https://www.brightnetwork.co.uk/graduate-jobs/ibm/experience-design-summer-internship-2026) | Internship | London | Ongoing |
 
 ---
 
