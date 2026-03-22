@@ -12,7 +12,7 @@
 
 :root {
     --primary: #0066cc;
-    --primary-dark: #0052a3;
+    --primary-dark: #004d99;
     --primary-light: #e6f0ff;
     --secondary: #ff6b35;
     --accent: #00d4ff;
@@ -20,8 +20,10 @@
     --light: #f8f9fa;
     --gray: #6c757d;
     --white: #ffffff;
-    --bg: #0F0F1E;
-    --text: #e8eaed;
+    --bg: #f8f9fa;
+    --text: #1a1a2e;
+    --card-bg: rgba(255, 255, 255, 0.9);
+    --card-border: rgba(0, 102, 204, 0.1);
     --radius: 12px;
     --max-width: 1200px;
     --fw-regular: 400;
@@ -30,19 +32,21 @@
     --transition-fast: 180ms;
 }
 
-/* Dark Mode */
+/* Dark Mode Overrides */
 [data-theme="dark"] {
     --primary: #4a90e2;
     --primary-dark: #357abd;
-    --primary-light: #1a2a4a;
+    --primary-light: #1e2a4a;
     --secondary: #ff8a50;
     --accent: #00e5ff;
-    --dark: #e8eaed;
+    --dark: #f8f9fa;
     --light: #121212;
-    --gray: #b0b0b0;
+    --gray: #a0a0a0;
     --white: #ffffff;
     --bg: #0F0F1E;
     --text: #e8eaed;
+    --card-bg: rgba(26, 26, 46, 0.8);
+    --card-border: rgba(255, 255, 255, 0.1);
 }
 
 html { font-size: 16px; }
@@ -415,13 +419,13 @@ section h2 {
 }
 
 .feature-content {
-    background: rgba(255, 255, 255, 0.78);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
     border-radius: 18px;
-    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     backdrop-filter: blur(12px);
-    padding: 28px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 35px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .feature-content:hover {
@@ -430,10 +434,10 @@ section h2 {
 }
 
 .feature-content h3 {
-    font-size: 30px;
-    margin-bottom: 18px;
-    color: var(--primary-dark);
-    letter-spacing: 0.6px;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: var(--primary);
+    font-weight: 700;
 }
 
 .feature-content p {
@@ -466,15 +470,15 @@ section h2 {
 }
 
 .feature-list li i {
-    color: var(--secondary);
-    font-size: 18px;
-    width: 22px;
-    height: 22px;
+    color: #4caf50;
+    font-size: 14px;
+    width: 24px;
+    height: 24px;
     display: grid;
     place-items: center;
-    background: rgba(76, 175, 80, 0.14);
+    background: rgba(76, 175, 80, 0.15);
     border-radius: 50%;
-    line-height: 1;
+    flex-shrink: 0;
 }
 
 
