@@ -1,7 +1,7 @@
 export const config = {
   appName: 'Internet Governance Resource Hub',
   version: '1.0.0',
-  port: 3000,
+  port: Number(process.env.PORT) || 3000,
   environment: process.env.NODE_ENV || 'development',
   colors: {
     primary: "#4f46e5",
