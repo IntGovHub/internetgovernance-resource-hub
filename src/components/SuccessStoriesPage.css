@@ -1,0 +1,110 @@
+.success-stories-container {
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.dark .success-stories-container {
+  background: #020617;
+}
+
+.success-stories-header {
+  background: #4f46e5; /* Indigo 600 */
+  color: white;
+  padding: 160px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.dark .success-stories-header {
+  background: #1e1b4b;
+}
+
+.success-stories-header img {
+  opacity: 0.2;
+  filter: saturate(1.2) brightness(0.8);
+  transition: transform 10s linear;
+}
+
+.success-stories-header:hover img {
+  transform: scale(1.1);
+}
+
+.success-stories-main {
+  margin-top: -60px;
+  position: relative;
+  z-index: 10;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 40px;
+  padding: 48px;
+  box-shadow: 0 40px 60px -15px rgba(0, 0, 0, 0.05);
+}
+
+.dark .glass-card {
+  background: rgba(30, 41, 59, 0.8) !important;
+  border-color: rgba(51, 65, 85, 0.4) !important;
+  box-shadow: 0 40px 60px -15px rgba(0, 0, 0, 0.3) !important;
+}
+
+.story-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(241, 245, 249, 0.8);
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark .story-card {
+  background: #0f172a;
+  border-color: #1e293b;
+}
+
+.story-card:hover {
+  box-shadow: 0 40px 60px -15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-8px);
+  border-color: #e0e7ff;
+}
+
+.dark .story-card:hover {
+  border-color: #312e81;
+}
+
+.takeaway-box {
+  background: #f8fafc;
+  border: 1px solid #f1f5f9;
+}
+
+.dark .takeaway-box {
+  background: #020617;
+  border-color: #1e293b;
+}
+
+.success-stories-header input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+
+@media (max-width: 768px) {
+  .success-stories-header {
+    padding: 120px 20px;
+  }
+  
+  .success-stories-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .glass-card {
+    padding: 32px 24px;
+    border-radius: 32px;
+  }
+  
+  .story-card {
+    padding: 32px 24px;
+    border-radius: 32px;
+  }
+}

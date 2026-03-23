@@ -1,0 +1,127 @@
+/* src/components/FundingPage.css */
+
+.funding-container {
+  --primary: #4f46e5;
+  --primary-dark: #4338ca;
+  --primary-light: #eef2ff;
+  --dark: #1a1a2e;
+  --gray: #6c757d;
+  --white: #ffffff;
+  --light: #f8fafc;
+  
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--dark);
+  background: var(--light);
+  min-height: 100vh;
+}
+
+.dark .funding-container {
+  --dark: #f8fafc;
+  --white: #020617;
+  --light: #0f172a;
+  --gray: #94a3b8;
+  --primary: #818cf8;
+}
+
+.funding-header {
+  background: #1e1b4b; /* Deep indigo */
+  color: var(--white);
+  padding: 160px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.dark .funding-header {
+  background: #020617;
+  border-bottom: 1px solid #1e293b;
+}
+
+.funding-header img {
+  opacity: 0.3;
+  filter: saturate(1.2) brightness(0.8);
+}
+
+.funding-header h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  letter-spacing: -0.04em;
+}
+
+.funding-header p {
+  font-size: 1.5rem;
+  opacity: 0.95;
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.funding-main {
+  max-width: 1100px;
+  margin: -40px auto 0;
+  padding: 80px 40px;
+  background: var(--white);
+  position: relative;
+  z-index: 10;
+  border-radius: 40px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
+}
+
+.funding-breadcrumb {
+  margin-bottom: 40px;
+  font-size: 0.875rem;
+  color: var(--gray);
+}
+
+.funding-breadcrumb a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.funding-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.funding-search-wrapper {
+  position: relative;
+  z-index: 20;
+  margin-top: 40px;
+}
+
+.funding-search-input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 18px 56px;
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.funding-search-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.funding-search-input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 768px) {
+  .funding-header h1 {
+    font-size: 2.5rem;
+  }
+  .funding-main {
+    padding: 40px 20px;
+    border-radius: 24px;
+  }
+}

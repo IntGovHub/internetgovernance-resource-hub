@@ -1,0 +1,348 @@
+.dark .fellowships-container {
+  --dark: #f8fafc;
+  --white: #020617;
+  --light: #0f172a;
+  --gray: #94a3b8;
+}
+
+.dark .fellowships-main {
+  background: var(--white);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.dark .fellowships-intro {
+  background: rgba(74, 222, 128, 0.05);
+  border-left-color: #4ade80;
+}
+
+.dark .fellowships-intro h3 {
+  color: #4ade80;
+}
+
+.dark .fellowships-intro p,
+.dark .fellowships-intro li {
+  color: #94a3b8;
+}
+
+.dark .fellowships-section-title,
+.dark .fellowships-month-title {
+  color: #f8fafc;
+  border-color: #22c55e;
+}
+
+.dark .opportunity-card {
+  background: #0f172a;
+  border-color: #1e293b;
+  border-left-color: #22c55e;
+}
+
+.dark .opportunity-card:hover {
+  background: #1e293b;
+}
+
+.dark .opportunity-title a {
+  color: #f8fafc;
+}
+
+.dark .opportunity-title a:hover {
+  color: #4ade80;
+}
+
+.dark .detail-label {
+  color: #f8fafc;
+}
+
+.dark .detail-text {
+  color: #94a3b8;
+}
+
+.dark .funding-badge {
+  background: rgba(34, 197, 94, 0.1);
+  color: #4ade80;
+  border-color: rgba(34, 197, 94, 0.2);
+}
+
+.dark .contribute-box {
+  background: rgba(34, 197, 94, 0.05);
+  border-left-color: #22c55e;
+}
+
+.dark .contribute-box h3 {
+  color: #4ade80;
+}
+
+.dark .contribute-box p,
+.dark .contribute-box li {
+  color: #94a3b8;
+}
+
+
+.fellowships-container {
+  --primary: #4caf50;
+  --primary-dark: #388e3c;
+  --primary-light: #e8f5e9;
+  --dark: #1a1a2e;
+  --gray: #6c757d;
+  --white: #ffffff;
+  --light: #f8f9fa;
+  
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--dark);
+  background: var(--light);
+  min-height: 100vh;
+}
+
+.fellowships-header {
+  background: #064e3b; /* Deep emerald */
+  color: var(--white);
+  padding: 160px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.fellowships-header img {
+  opacity: 0.5; /* Increased opacity for more prominence */
+  filter: saturate(1.2) brightness(0.8);
+  transition: transform 10s linear;
+}
+
+.fellowships-header:hover img {
+  transform: scale(1.1);
+}
+
+.fellowships-header h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  letter-spacing: -0.04em;
+}
+
+.header-icon {
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.1));
+}
+
+.fellowships-header p {
+  font-size: 1.5rem;
+  opacity: 0.95;
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.fellowships-search-wrapper {
+  position: relative;
+  z-index: 20;
+}
+
+.fellowships-search-input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 18px 56px;
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.fellowships-search-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.fellowships-search-input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.fellowships-main {
+  max-width: 1100px;
+  margin: -40px auto 0;
+  padding: 80px 40px;
+  background: var(--white);
+  position: relative;
+  z-index: 10;
+  border-radius: 40px;
+}
+
+.fellowships-breadcrumb {
+  margin-bottom: 40px;
+  font-size: 0.875rem;
+  color: var(--gray);
+}
+
+.fellowships-breadcrumb a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.fellowships-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.fellowships-intro {
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.1) 0%, rgba(76, 175, 80, 0.05) 100%);
+  padding: 40px;
+  border-radius: 16px;
+  margin-bottom: 60px;
+  border-left: 6px solid var(--primary);
+}
+
+.fellowships-intro h3 {
+  color: var(--primary);
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.fellowships-intro ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fellowships-intro li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--gray);
+}
+
+.fellowships-section-title {
+  font-size: 2.5rem;
+  margin: 80px 0 40px;
+  color: var(--dark);
+  border-bottom: 8px solid var(--primary);
+  padding-bottom: 24px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.fellowships-month-title {
+  font-size: 1.5rem;
+  margin: 40px 0 25px;
+  color: var(--dark);
+  font-weight: 700;
+  padding-left: 20px;
+  border-left: 5px solid var(--primary);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7) !important;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07) !important;
+}
+
+.opportunity-card {
+  background: var(--white);
+  border: 1px solid #f1f5f9;
+  border-radius: 32px;
+  padding: 40px;
+  margin: 32px 0;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-left: 12px solid var(--primary);
+  box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.05);
+}
+
+.opportunity-card:hover {
+  box-shadow: 0 40px 60px -15px rgba(0, 0, 0, 0.1) !important;
+  transform: translateY(-8px) scale(1.01);
+  border-left-width: 16px;
+}
+
+.opportunity-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.opportunity-title a {
+  color: var(--dark);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.opportunity-title a:hover {
+  color: var(--primary);
+}
+
+.opportunity-details {
+  display: grid;
+  gap: 16px;
+  font-size: 0.9375rem;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.detail-label {
+  font-weight: 700;
+  color: var(--dark);
+  min-width: 120px;
+}
+
+.detail-text {
+  color: var(--gray);
+}
+
+.funding-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: #f0fdf4;
+  color: #166534;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  font-weight: 800;
+  border: 1px solid #dcfce7;
+}
+
+.apply-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background: #059669;
+  color: white;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 10px 15px -3px rgba(5, 150, 105, 0.3);
+}
+
+.apply-btn:hover {
+  background: #047857;
+  transform: translateY(-2px);
+  box-shadow: 0 20px 25px -5px rgba(5, 150, 105, 0.4);
+}
+
+.contribute-box {
+  background: #e8f5e9;
+  padding: 40px;
+  border-radius: 16px;
+  margin-top: 80px;
+  border-left: 6px solid var(--primary);
+}
+
+.contribute-box h3 {
+  color: var(--primary);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
