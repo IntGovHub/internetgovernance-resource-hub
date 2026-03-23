@@ -1,0 +1,14 @@
+node_modules
+dist
+.git
+.env
+.ipynb_checkpoints
+*.md
+LICENSE
+.gitignore
+.dockerignore
+serve.sh
+serve.bat
+# Build caches
+.npm
+.cache

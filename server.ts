@@ -1,3 +1,4 @@
+import "dotenv/config";
 import express from "express";
 import { createServer as createViteServer } from "vite";
 import path from "path";
@@ -17,7 +18,7 @@ async function startServer() {
 
   // Security and performance middleware
   app.use(helmet({
-    contentSecurityPolicy: false, // Disable for development/Vite
+    contentSecurityPolicy: process.env.NODE_ENV === "production",
   }));
   app.use(compression());
   app.use(express.json());
