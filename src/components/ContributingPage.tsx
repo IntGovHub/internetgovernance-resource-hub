@@ -228,6 +228,38 @@ const ContributingPage: React.FC = () => {
           </div>
         </section>
 
+        <section id="maintainers" className="mb-20">
+          <h2 className="section-title flex items-center gap-3 text-3xl font-black text-slate-900 mb-10 dark:text-white">
+            <Users className="text-indigo-600" size={32} /> Maintainers & Authors
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { name: "Lily Botsyoe", link: "https://github.com/Botsyoelily" },
+              { name: "Abigail Mesrenyame Dogbe", link: "https://github.com/mesrenyamedogbe" },
+              { name: "Shadrack M.K. Inusah", link: "https://github.com/KojoShaddy" },
+              { name: "Yao Amevi A. Sossou", link: "https://github.com/soyames" }            
+            ].map(author => (
+              <a 
+                key={author.name}
+                href={author.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 p-4 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-md hover:border-indigo-100 transition-all group dark:bg-slate-900/50 dark:border-slate-800"
+              >
+                <div className="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center font-bold group-hover:bg-indigo-600 group-hover:text-white transition-all">
+                  {author.name.charAt(0)}
+                </div>
+                <div className="flex flex-col">
+                  <span className="font-bold text-slate-900 dark:text-white leading-tight">{author.name}</span>
+                  <span className="text-xs text-slate-500 flex items-center gap-1 group-hover:text-indigo-600 transition-colors">
+                    <Github size={10} /> View Profile
+                  </span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+
         <div className="btn-group flex flex-col sm:flex-row gap-4 justify-center mt-16">
           <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="btn-primary flex items-center justify-center gap-2 bg-indigo-600 text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-indigo-700 transition-all shadow-xl shadow-indigo-100">
             <Github size={24} /> Go to GitHub

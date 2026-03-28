@@ -15,7 +15,9 @@ import {
   Search,
   Filter,
   X,
-  ChevronRight
+  ChevronRight,
+  Sparkles,
+  Info
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import "./FellowshipsPage.css";
@@ -23,154 +25,147 @@ import "./FellowshipsPage.css";
 const FellowshipsPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState("");
   
-  const opportunities = [
+  const opportunities = useMemo(() => [
     {
-      month: "January 2026",
-      items: [
-        {
-          title: "Internet Society Global Fellowship",
-          org: "Internet Society (ISOC)",
-          region: "Global",
-          funding: "Full funding + travel",
-          deadline: "January 31, 2026",
-          link: "https://www.isoc.org/fellowship"
-        },
-        {
-          title: "DiploFoundation Online Training",
-          org: "DiploFoundation",
-          region: "Global / Remote",
-          funding: "Scholarships available",
-          deadline: "January 20, 2026",
-          link: "https://diplo.org/academy"
-        }
-      ]
+      title: "ICANN87 Annual General Meeting Fellowship",
+      org: "ICANN",
+      region: "Asia Pacific (Muscat, Oman)",
+      funding: "Fully Funded (Travel, accommodation, stipend)",
+      deadline: "19 April 2026",
+      link: "https://webportalapp.com/sp/login_saml/icannp_fellowship_application",
+      description: "Event Date: 17–22 October 2026.",
+      month: "October 2026"
     },
     {
-      month: "February 2026",
-      items: [
-        {
-          title: "ICANN Fellowship Program",
-          org: "ICANN",
-          region: "Global",
-          funding: "Full + accommodation",
-          deadline: "February 10, 2026",
-          link: "https://www.icann.org/fellowships"
-        },
-        {
-          title: "Forum on Digital Diplomacy Mentorship",
-          org: "Forum on Digital Diplomacy",
-          region: "Europe, Americas, Asia",
-          funding: "Limited scholarships",
-          deadline: "February 28, 2026",
-          link: "https://www.forumdd.org/"
-        }
-      ]
+      title: "UN Global Internet Summit Scholar",
+      org: "UN & Partner Organizations",
+      region: "Global",
+      funding: "Full sponsorship",
+      deadline: "July 15, 2026",
+      link: "https://www.ungis.org/",
+      month: "July 2026"
     },
     {
-      month: "March 2026",
-      items: [
-        {
-          title: "Cybersecurity Research Initiative Scholarship",
-          org: "CCRI",
-          region: "North America",
-          funding: "Up to $50,000",
-          deadline: "March 15, 2026",
-          link: "https://www.ccri.research/"
-        },
-        {
-          title: "Mozilla Fellow in Internet Policy",
-          org: "Mozilla Foundation",
-          region: "Global",
-          funding: "Stipend + support",
-          deadline: "March 31, 2026",
-          link: "https://www.mozilla.org/fellowships/"
-        },
-        {
-          title: "IGF 2026 Fellowship Programme",
-          org: "Internet Governance Forum (IGF) / UN DESA",
-          region: "Global (Developing countries, LDCs, LLDCs, transitional economies)",
-          funding: "IGF Trust Fund (travel, stipend, office facilities in Geneva)",
-          deadline: "March 31, 2026",
-          link: "https://www.intgovforum.org/en/content/igf-2026-fellowship-programme",
-          description: "6-month fellowship cycle (May–November 2026). Apply with CV, motivation letter and nomination form via vacancies@intgovforum.org."
-        }
-      ]
+      title: "dotEveryone Digital Society Fellowship",
+      org: "dotEveryone",
+      region: "UK / Europe",
+      funding: "Supported through grant",
+      deadline: "June 30, 2026",
+      link: "https://www.doteveryone.org.uk/",
+      month: "June 2026"
     },
     {
-      month: "April 2026",
-      items: [
-        {
-          title: "ARTICLE 19 Youth Fellowship",
-          org: "ARTICLE 19",
-          region: "Global",
-          funding: "Full support + mentoring",
-          deadline: "April 30, 2026",
-          link: "https://www.article19.org/"
-        },
-        {
-          title: "ITU Fellowship Program",
-          org: "ITU",
-          region: "Global",
-          funding: "Full fellowship",
-          deadline: "April 15, 2026",
-          link: "https://www.itu.int/scholarships"
-        }
-      ]
+      title: "APC Global Fellowship",
+      org: "Association for Progressive Communications (APC)",
+      region: "Global, focus on Global South",
+      funding: "Full funding",
+      deadline: "May 31, 2026",
+      link: "https://www.apc.org/",
+      month: "May 2026"
     },
     {
-      month: "May 2026",
-      items: [
-        {
-          title: "APC Global Fellowship",
-          org: "Association for Progressive Communications (APC)",
-          region: "Global, focus on Global South",
-          funding: "Full funding",
-          deadline: "May 31, 2026",
-          link: "https://www.apc.org/"
-        }
-      ]
+      title: "Globethics Ethical AI Governance Fellowship",
+      org: "Globethics",
+      region: "Global (Hybrid/Online)",
+      funding: "Partially Funded / Sponsored",
+      deadline: "16 April 2026",
+      link: "https://globethics.net/ethical-ai-governance-fellowship",
+      description: "2026 Cohort - Programme dates vary. Includes training and network access.",
+      month: "April 2026"
     },
     {
-      month: "June 2026",
-      items: [
-        {
-          title: "dotEveryone Digital Society Fellowship",
-          org: "dotEveryone",
-          region: "UK / Europe",
-          funding: "Supported through grant",
-          deadline: "June 30, 2026",
-          link: "https://www.doteveryone.org.uk/"
-        }
-      ]
+      title: "ITU Fellowship Program",
+      org: "ITU",
+      region: "Global",
+      funding: "Full fellowship",
+      deadline: "April 15, 2026",
+      link: "https://www.itu.int/scholarships",
+      month: "April 2026"
     },
     {
-      month: "July 2026",
-      items: [
-        {
-          title: "UN Global Internet Summit Scholar",
-          org: "UN & Partner Organizations",
-          region: "Global",
-          funding: "Full sponsorship",
-          deadline: "July 15, 2026",
-          link: "https://www.ungis.org/"
-        }
-      ]
+      title: "ARTICLE 19 Youth Fellowship",
+      org: "ARTICLE 19",
+      region: "Global",
+      funding: "Full support + mentoring",
+      deadline: "April 30, 2026",
+      link: "https://www.article19.org/",
+      month: "April 2026"
+    },
+    {
+      title: "IGF 2026 Fellowship Programme",
+      org: "Internet Governance Forum (IGF) / UN DESA",
+      region: "Global (Developing countries, LDCs, LLDCs, transitional economies)",
+      funding: "IGF Trust Fund (travel, stipend, office facilities in Geneva)",
+      deadline: "March 31, 2026",
+      link: "https://www.intgovforum.org/en/content/igf-2026-fellowship-programme",
+      description: "6-month fellowship cycle (May–November 2026).",
+      month: "March 2026"
+    },
+    {
+      title: "Mozilla Fellow in Internet Policy",
+      org: "Mozilla Foundation",
+      region: "Global",
+      funding: "Stipend + support",
+      deadline: "March 31, 2026",
+      link: "https://www.mozilla.org/fellowships/",
+      month: "March 2026"
+    },
+    {
+      title: "Cybersecurity Research Initiative Scholarship",
+      org: "CCRI",
+      region: "North America",
+      funding: "Up to $50,000",
+      deadline: "March 15, 2026",
+      link: "https://www.ccri.research/",
+      month: "March 2026"
+    },
+    {
+      title: "Forum on Digital Diplomacy Mentorship",
+      org: "Forum on Digital Diplomacy",
+      region: "Europe, Americas, Asia",
+      funding: "Limited scholarships",
+      deadline: "February 28, 2026",
+      link: "https://www.forumdd.org/",
+      month: "February 2026"
+    },
+    {
+      title: "ICANN Fellowship Program",
+      org: "ICANN",
+      region: "Global",
+      funding: "Full + accommodation",
+      deadline: "February 10, 2026",
+      link: "https://www.icann.org/fellowships",
+      month: "February 2026"
+    },
+    {
+      title: "DiploFoundation Online Training",
+      org: "DiploFoundation",
+      region: "Global / Remote",
+      funding: "Scholarships available",
+      deadline: "January 20, 2026",
+      link: "https://diplo.org/academy",
+      month: "January 2026"
+    },
+    {
+      title: "Internet Society Global Fellowship",
+      org: "Internet Society (ISOC)",
+      region: "Global",
+      funding: "Full funding + travel",
+      deadline: "January 31, 2026",
+      link: "https://www.isoc.org/fellowship",
+      month: "January 2026"
     }
-  ];
+  ], []);
 
   const filteredOpportunities = useMemo(() => {
-    if (!searchQuery.trim()) return opportunities;
     const query = searchQuery.toLowerCase();
-    
-    return opportunities.map(section => ({
-      ...section,
-      items: section.items.filter(item => 
-        item.title.toLowerCase().includes(query) ||
-        item.org.toLowerCase().includes(query) ||
-        item.region.toLowerCase().includes(query) ||
-        (item.description && item.description.toLowerCase().includes(query))
-      )
-    })).filter(section => section.items.length > 0);
+    return opportunities.filter(item => 
+      item.title.toLowerCase().includes(query) ||
+      item.org.toLowerCase().includes(query) ||
+      item.region.toLowerCase().includes(query) ||
+      (item.description && item.description.toLowerCase().includes(query)) ||
+      item.month.toLowerCase().includes(query)
+    );
   }, [searchQuery, opportunities]);
 
   return (
@@ -184,11 +179,11 @@ const FellowshipsPage: React.FC = () => {
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1523240715630-971c7e91b7be?auto=format&fit=crop&q=80&w=2000" 
-            alt="Education Banner" 
+            alt="Education Background" 
             className="w-full h-full object-cover opacity-30 mix-blend-overlay"
             referrerPolicy="no-referrer"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-green-600/80 to-green-900/90" />
+          <div className="absolute inset-0 bg-gradient-to-b from-indigo-900/80 to-indigo-950" />
         </div>
         
         <div className="max-w-4xl mx-auto px-4 relative z-10">
@@ -197,143 +192,132 @@ const FellowshipsPage: React.FC = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.1 }}
           >
-            <h1 className="text-white drop-shadow-2xl">
-              <GraduationCap size={72} className="header-icon text-green-300" /> 
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-200 text-xs font-bold mb-6">
+              <Sparkles size={14} /> Capacity Building 2026
+            </div>
+            <h1 className="text-white text-5xl md:text-7xl font-black tracking-tight mb-6 flex items-center justify-center gap-4">
               Fellowships & Scholarships
             </h1>
-            <p className="text-green-50/90">Access elite educational and professional development programs in Internet Governance</p>
+            <p className="text-indigo-100/80 text-xl max-w-2xl mx-auto font-medium">
+              Access elite educational and professional development programs in the Internet Governance ecosystem.
+            </p>
           </motion.div>
           
-          {/* Internal Search Bar */}
           <motion.div 
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="fellowships-search-wrapper"
+            className="mt-12 max-w-2xl mx-auto relative group"
           >
-            <div className="relative max-w-2xl mx-auto mt-10">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-white/60" size={20} />
-              <input 
-                type="text" 
-                placeholder="Search fellowships, organizations, or regions..."
-                className="fellowships-search-input"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-              />
-              {searchQuery && (
-                <button 
-                  onClick={() => setSearchQuery("")}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 text-white/60 hover:text-white transition-colors"
-                >
-                  <X size={20} />
-                </button>
-              )}
+            <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none text-indigo-300 group-focus-within:text-white transition-colors">
+              <Search size={20} />
             </div>
+            <input 
+              type="text" 
+              placeholder="Search fellowships, organizations, or regions..."
+              className="w-full bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl py-5 pl-14 pr-6 text-white placeholder:text-indigo-200/50 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all dark:bg-slate-900/50 dark:border-slate-700/50"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
           </motion.div>
         </div>
       </header>
 
-      <main className="fellowships-main shadow-2xl">
-        <div className="fellowships-breadcrumb dark:text-slate-400">
-          <Link to="/" className="dark:text-indigo-400">Home</Link> <ChevronRight size={14} className="inline mx-1" /> <span className="dark:text-slate-200">Fellowships & Scholarships</span>
-        </div>
-
-
-        <div className="fellowships-intro">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="p-2 bg-green-100 rounded-lg text-green-600">
-              <Filter size={20} />
-            </div>
-            <h3 className="m-0">About This Section</h3>
+      <main className="fellowships-main">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="breadcrumb mb-12 flex items-center gap-2 text-sm font-medium text-slate-500 dark:text-slate-400">
+            <Link to="/" className="hover:text-indigo-600 dark:hover:text-indigo-400">Home</Link>
+            <ChevronRight size={14} />
+            <span className="text-slate-900 dark:text-white">Fellowships & Scholarships</span>
           </div>
-          <p className="mb-4 text-slate-600 dark:text-slate-400"><strong>Discover curated opportunities</strong> to advance your career in the digital policy landscape. We track programs focused on:</p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8">
-            <ul>
-              <li><Check size={18} className="text-green-600" /> Internet Governance Excellence</li>
-              <li><Check size={18} className="text-green-600" /> Tech Policy & Digital Rights</li>
-            </ul>
-            <ul>
-              <li><Check size={18} className="text-green-600" /> Cybersecurity & Trust</li>
-              <li><Check size={18} className="text-green-600" /> Emerging Leaders Development</li>
-            </ul>
-          </div>
-        </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <div className="lg:col-span-2">
+              <section className="intro-card glass-card mb-12">
+                <div className="flex items-start gap-4">
+                  <div className="p-3 rounded-xl bg-indigo-50 text-indigo-600 dark:bg-indigo-950/30 dark:text-indigo-400">
+                    <Info size={24} />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-slate-900 mb-4 dark:text-white">About This Directory</h3>
+                    <p className="text-slate-600 leading-relaxed mb-6 dark:text-slate-400">
+                      Discover curated opportunities to advance your career in the digital policy landscape. Access programs focused on:
+                    </p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      {["Internet Governance", "Tech Policy & Rights", "Cybersecurity", "Emerging Leaders"].map(tag => (
+                        <div key={tag} className="flex items-center gap-2 text-sm font-medium text-slate-700 dark:text-slate-300">
+                          <CheckCircle size={16} className="text-indigo-500" /> {tag}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </section>
 
-        <div className="flex items-center justify-between mb-8">
-          <h2 className="fellowships-section-title m-0 border-0 pb-0">
-            <Book size={32} className="inline mr-3 text-green-600" /> 
-            {searchQuery ? `Search Results (${filteredOpportunities.reduce((acc, s) => acc + s.items.length, 0)})` : "Fellowships & Opportunities"}
-          </h2>
-        </div>
-
-        <AnimatePresence mode="popLayout">
-          {filteredOpportunities.length > 0 ? (
-            filteredOpportunities.map((section, sIdx) => (
-              <motion.div 
-                key={section.month}
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, scale: 0.95 }}
-                transition={{ delay: sIdx * 0.05 }}
-              >
-                <h3 className="fellowships-month-title">
-                  <Calendar size={24} className="inline mr-3 text-green-600" /> {section.month}
-                </h3>
-                <div className="space-y-6">
-                  {section.items.map((item, iIdx) => (
+              <div className="space-y-6">
+                <AnimatePresence mode="popLayout">
+                  {filteredOpportunities.map((item, idx) => (
                     <motion.div 
                       key={item.title} 
                       layout
-                      className="opportunity-card group glass-card"
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, scale: 0.95 }}
+                      className="opportunity-card group glass-card dark:before:bg-slate-900/50"
                     >
                       <div className="flex flex-col md:flex-row justify-between gap-6">
                         <div className="flex-1">
-                          <div className="opportunity-title">
-                            <a href={item.link} target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center gap-2 text-2xl font-black tracking-tight">
-                              {item.title} <ExternalLink size={18} className="opacity-0 group-hover:opacity-100 transition-opacity text-green-600" />
+                          <h4 className="text-2xl font-black tracking-tight mb-4 text-slate-900 dark:text-white">
+                            <a href={item.link} target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 transition-colors flex items-center gap-2 dark:hover:text-indigo-400">
+                              {item.title} <ExternalLink size={18} className="opacity-0 group-hover:opacity-100 transition-opacity" />
                             </a>
-                          </div>
-                          <div className="opportunity-details mt-4">
-                            <div className="detail-item">
-                              <Building size={18} className="text-green-600" />
-                              <span className="detail-label">Organization:</span>
-                              <span className="detail-text">{item.org}</span>
+                          </h4>
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8">
+                            <div className="flex items-start gap-3">
+                              <Building size={18} className="text-indigo-500 mt-0.5" />
+                              <div>
+                                <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400">Organization</span>
+                                <span className="text-slate-700 font-medium dark:text-slate-300">{item.org}</span>
+                              </div>
                             </div>
-                            <div className="detail-item">
-                              <MapPin size={18} className="text-green-600" />
-                              <span className="detail-label">Region:</span>
-                              <span className="detail-text">{item.region}</span>
+                            <div className="flex items-start gap-3">
+                              <MapPin size={18} className="text-indigo-500 mt-0.5" />
+                              <div>
+                                <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400">Region</span>
+                                <span className="text-slate-700 font-medium dark:text-slate-300">{item.region}</span>
+                              </div>
                             </div>
-                            <div className="detail-item">
-                              <Coins size={18} className="text-green-600" />
-                              <span className="detail-label">Funding:</span>
-                              <span className="detail-text">{item.funding}</span>
+                            <div className="flex items-start gap-3">
+                              <Coins size={18} className="text-indigo-500 mt-0.5" />
+                              <div>
+                                <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400">Funding</span>
+                                <span className="text-slate-700 font-medium dark:text-slate-300">{item.funding}</span>
+                              </div>
                             </div>
-                            <div className="detail-item">
-                              <Clock size={18} className="text-green-600" />
-                              <span className="detail-label">Deadline:</span>
-                              <span className="detail-text font-bold text-slate-900 dark:text-white">{item.deadline}</span>
-
+                            <div className="flex items-start gap-3">
+                              <Clock size={18} className="text-indigo-500 mt-0.5" />
+                              <div>
+                                <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400">Deadline</span>
+                                <span className="text-slate-900 font-bold dark:text-white">{item.deadline}</span>
+                              </div>
                             </div>
                           </div>
                           {item.description && (
-                            <p className="mt-4 text-slate-500 text-sm leading-relaxed bg-slate-50 p-3 rounded-lg border-l-4 border-slate-200 dark:bg-slate-900/50 dark:border-slate-700 dark:text-slate-400">
+                            <p className="mt-4 text-slate-500 text-sm leading-relaxed dark:text-slate-400">
                               {item.description}
                             </p>
-
                           )}
                         </div>
                         
-                        <div className="flex flex-col items-start md:items-end gap-4 min-w-[180px]">
-                          <span className="funding-badge">
-                            <CheckCircle size={16} /> Funding Available
+                        <div className="flex flex-col items-start md:items-end gap-4 min-w-[160px]">
+                          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-xs font-bold border border-indigo-100 dark:bg-indigo-900/20 dark:text-indigo-400 dark:border-indigo-800">
+                            <CheckCircle size={14} /> Funding Available
                           </span>
                           <a 
                             href={item.link} 
                             target="_blank" 
                             rel="noopener noreferrer" 
-                            className="apply-btn w-full text-center m-0"
+                            className="w-full md:w-auto px-6 py-3 rounded-xl bg-slate-900 text-white text-sm font-bold hover:bg-indigo-600 transition-all text-center dark:bg-indigo-600 dark:hover:bg-indigo-700"
                           >
                             Apply Now
                           </a>
@@ -341,44 +325,36 @@ const FellowshipsPage: React.FC = () => {
                       </div>
                     </motion.div>
                   ))}
-                </div>
-              </motion.div>
-            ))
-          ) : (
-            <motion.div 
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              className="text-center py-20 bg-slate-50 rounded-3xl border-2 border-dashed border-slate-200"
-            >
-              <div className="inline-flex h-20 w-20 items-center justify-center rounded-full bg-slate-100 text-slate-400 mb-4">
-                <Search size={40} />
+                </AnimatePresence>
+                {filteredOpportunities.length === 0 && (
+                  <div className="text-center py-20 bg-slate-50 rounded-3xl border-2 border-dashed border-slate-200 dark:bg-slate-900/20 dark:border-slate-800">
+                    <Search size={48} className="mx-auto text-slate-300 mb-4" />
+                    <h3 className="text-xl font-bold text-slate-900 dark:text-white">No results found</h3>
+                    <p className="text-slate-500">Try adjusting your search terms.</p>
+                  </div>
+                )}
               </div>
-              <h3 className="text-xl font-bold text-slate-900 dark:text-white">No opportunities found</h3>
-              <p className="text-slate-500 mt-2 dark:text-slate-400">Try adjusting your search terms or filters.</p>
+            </div>
 
-              <button 
-                onClick={() => setSearchQuery("")}
-                className="mt-6 text-green-600 font-bold hover:underline"
-              >
-                Clear all searches
-              </button>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <div className="contribute-box">
-          <h3><CheckCircle size={24} /> How to Contribute</h3>
-          <p className="text-gray-600 mb-4">Help us keep this list updated:</p>
-          <ul className="list-disc ml-6 text-gray-600 space-y-2 dark:text-slate-400">
-            <li>Submit new opportunities via <Link to="/contributing" className="text-green-600 underline dark:text-green-400">GitHub Pull Request</Link></li>
-            <li>Report expired programs via <Link to="/contributing" className="text-green-600 underline dark:text-green-400">GitHub Issue</Link></li>
-            <li>Learn more on our <Link to="/contributing" className="text-green-600 underline font-bold dark:text-green-400">Contributing Page</Link></li>
-          </ul>
-
+            <div className="lg:col-span-1">
+              <aside className="sticky top-32 space-y-8">
+                <div className="p-8 rounded-[2rem] bg-indigo-600 text-white shadow-xl shadow-indigo-200 dark:shadow-indigo-900/20">
+                  <h3 className="text-2xl font-black mb-4">Contribute</h3>
+                  <p className="text-indigo-100 mb-6 leading-relaxed">
+                    Help us keep this list updated. Know a program that's missing?
+                  </p>
+                  <Link 
+                    to="/contributing" 
+                    className="block w-full py-4 rounded-2xl bg-white text-indigo-600 text-center font-bold hover:bg-slate-50 transition-colors"
+                  >
+                    Submit Entry
+                  </Link>
+                </div>
+              </aside>
+            </div>
+          </div>
         </div>
       </main>
-
-
     </motion.div>
   );
 };
