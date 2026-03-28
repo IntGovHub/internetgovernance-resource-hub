@@ -147,7 +147,7 @@ const Navbar = () => {
           <button className="rounded-full bg-indigo-600 px-6 py-2 text-sm font-semibold text-white transition-all hover:bg-indigo-700 hover:shadow-lg hover:shadow-indigo-200 active:scale-95">
             Join Ecosystem
           </button>
-          
+
           <button
             onClick={toggleTheme}
             className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-slate-600 transition-all hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-400 dark:hover:bg-slate-700 active:scale-95"
@@ -581,6 +581,34 @@ const AboutPage = () => (
                 </li>
 
               </ul>
+            </div>
+
+            <div className="pt-12 border-t border-slate-100 dark:border-slate-800">
+              <h3 className="text-2xl font-bold text-slate-900 mb-8 dark:text-white">Maintainers & Authors</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {[
+                  { name: "Lily Botsyoe", link: "https://github.com/Botsyoelily" },
+                  { name: "Abigail Mesrenyame Dogbe", link: "https://github.com/mesrenyamedogbe" },
+                  { name: "Shadrack M.K. Inusah", link: "https://github.com/KojoShaddy" },
+                  { name: "Yao Amevi A. Sossou", link: "https://github.com/soyames" }
+                ].map(author => (
+                  <a 
+                    key={author.name}
+                    href={author.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 p-4 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-md hover:border-indigo-100 transition-all group dark:bg-slate-900/50 dark:border-slate-800"
+                  >
+                    <div className="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center font-bold group-hover:bg-indigo-600 group-hover:text-white transition-all">
+                      {author.name.charAt(0)}
+                    </div>
+                    <div className="flex flex-col">
+                      <span className="font-bold text-slate-900 dark:text-white leading-tight">{author.name}</span>
+                      <span className="text-xs text-slate-500 group-hover:text-indigo-600 transition-colors">GitHub Profile</span>
+                    </div>
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
         </div>
